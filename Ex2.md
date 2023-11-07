@@ -33,18 +33,22 @@ insert into manager values(1288,'Lingesh',4000,0,48000,'12-Aug-82','clerk',50,'P
 ### Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 
 ### QUERY:
-![ella1](https://github.com/Thirukaalathessvarar-S/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121166390/c089b570-a46f-4486-8f26-3a36e47a9988)
+```
+update manager set salary=salary+(salary*0.10);
+```
 
 ### OUTPUT:
-![ella2](https://github.com/Thirukaalathessvarar-S/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121166390/0a8aff9f-62e6-4269-abd2-24ed52175960)
+![dbms3_exp2](https://github.com/Thirukaalathessvarar-S/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121166390/66f76d91-b314-4542-8a51-b0d2a73bd57f)
 
 ### Q2) Delete the records from manager table where the salary less than 2750.
 
 ### QUERY:
-![ella3](https://github.com/Thirukaalathessvarar-S/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121166390/4082d89b-2bd8-4bf1-b949-e590adc10b40)
+```
+delete from manager where salary<2750;
+```
 
 ### OUTPUT:
-![ella4](https://github.com/Thirukaalathessvarar-S/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121166390/09980056-f8b4-4b36-9492-28e022fa6a4e)
+![dbms4_exp2](https://github.com/Thirukaalathessvarar-S/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121166390/325aa9f0-6d97-47d6-b3dd-26a652f13957)
 
 ### Q3) Display each name of the employee as “Name” and annual salary as “Annual Salary” (Note: Salary in emp table is the monthly salary)
 
